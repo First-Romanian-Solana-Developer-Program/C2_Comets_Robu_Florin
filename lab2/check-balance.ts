@@ -31,7 +31,7 @@ await airdropIfRequired(
   connection,
   publicKey,
   1 * LAMPORTS_PER_SOL,
-  6 * LAMPORTS_PER_SOL
+  0.5 * LAMPORTS_PER_SOL
 );
 
 console.log("Airdrop done!");
